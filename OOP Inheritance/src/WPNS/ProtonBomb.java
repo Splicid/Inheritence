@@ -14,4 +14,8 @@ public class ProtonBomb extends TieWeapon {
         dropped = true;
         System.out.println("Fired from Laser Cannon");
     }
+    
+    public boolean bombTarget() {
+    	return true;
+    }
 }
